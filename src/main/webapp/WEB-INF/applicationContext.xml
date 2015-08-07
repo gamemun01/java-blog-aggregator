@@ -40,4 +40,7 @@
 	<jpa:repositories base-package="com.test.jba.repository" entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager"/>
 	
 	<context:component-scan base-package="com.test.jba.service"/>
+	
+	<import resource="security.xml" />
+	
 </beans>
